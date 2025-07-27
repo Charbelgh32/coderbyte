@@ -1,0 +1,56 @@
+.cardfont{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    padding-top:60px;
+    padding-left: 40px;
+    color:'white'
+    
+
+
+}
+
+.cardborder{
+    margin: auto;
+    background-color: #6fbf8e;
+    width:1000px;
+    height:180px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    padding-top: 20px;
+    color:white;
+}
+
+.pricestyle{
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.pricestyle2{
+    font-weight: bold;
+    color:'black';
+}
+.pricestyle3{
+    font-weight:#6fbf8e;
+    color:#6fbf8e;
+    text-align: center;
+}
+
+.descriptionstyle {
+    padding-left: 20px;
+    padding-top: 10px;
+    
+    
+    overflow: hidden; /* Prevents content from overflowing */
+    box-sizing: border-box;
+    display: -webkit-box; /* For WebKit browsers */
+    -webkit-box-orient: vertical; /* Specifies vertical orientation */
+    overflow: hidden; /* Hides overflow */
+    text-overflow: ellipsis; /* Adds ellipsis for overflowing text */
+    color:'white'
+
+}
